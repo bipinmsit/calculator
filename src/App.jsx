@@ -24,16 +24,9 @@ const App = () => {
             setresult("Error")
         }
     }
-
-    // useEffect(() => {
-    //     effect
-    //     return () => {
-    //         cleanup
-    //     }
-    // }, [input])
-
     return(
         <div className="calc-app">
+            <p>copyright ©️ bipinmsit</p>
             <form>
                 <input type="text" value={result} ref={inputRef} />
             </form>
